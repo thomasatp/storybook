@@ -1,0 +1,51 @@
+html {
+font-size: 10px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.primary {
+    background-color: #105a33;
+}
+
+.primary-outline {
+    background-color: transparent;
+    border: 1px solid #105a33;
+    color: #105a33;
+}
+
+.secondary {
+    background-color: #191919;
+}
+
+.secondary-outline {
+    background-color: transparent;
+    border: 1px solid #191919;
+    color: #191919;
+}
+
+.small {
+    height: 3.2rem;
+    border-radius: 1.6rem;
+    padding: 0 1.6rem;
+}
+
+.medium {
+    height: 4.4rem;
+    border-radius: 2.2rem;
+    padding: 0 2.4rem;
+}
+
+.large {
+    height: 5.4rem;
+    border-radius: 2.7rem;
+    padding: 0 3.2rem;
+}
