@@ -6,26 +6,47 @@
     border: none;
     color: #fff;
     cursor: pointer;
+    font-family: inherit;
+    transition: ease .3s;
+
 }
 
 .primary {
     background-color: #105a33;
+
+    &:hover {
+        background-color: #187c48;
+    }
 }
 
 .primary-outline {
     background-color: transparent;
     border: 1px solid #105a33;
     color: #105a33;
+
+    &:hover {
+        background-color: #105a33;
+        color: #fff;
+    }
 }
 
 .secondary {
     background-color: #191919;
+
+    &:hover {
+        background-color: #545454;
+    }
 }
 
 .secondary-outline {
     background-color: transparent;
     border: 1px solid #191919;
     color: #191919;
+
+    &:hover {
+        background-color: #191919;
+        color: #fff;
+    }
 }
 
 .small {
